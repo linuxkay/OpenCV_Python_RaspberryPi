@@ -14,3 +14,36 @@ Pip3 uses 3.4.
 
 Latest version of opencv is 4.1 for amd64 or x86. Not available yet for armv7, v6.
 
+# Requirements
+
+pip3
+
+or 
+
+anaconda
+
+
+# Prep
+
+sudo apt -y install python3-pip
+
+
+# Installation
+
+--pip3--
+
+pip3 install --user opencv-python
+
+For GSOC use opencv-contrib-python
+
+pip3 install --user imutils
+
+
+For opencv-python install dependencies from dependencies.txt in this github repo. This saves ton of time.
+
+--Anaconda--
+
+conda install opencv=3.3
+
+conda install gilbertfrancois imutils
+
