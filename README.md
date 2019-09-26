@@ -49,6 +49,18 @@ conda install opencv=3.3
 conda install gilbertfrancois imutils
 
 # Memo
+Install imutils from package since Pi1B+ does not have internet access.
+
+Downloaded imutils by Pi3B+(Has internet access and ssh acces to Pi1B)
+
+pip3 download imutils -d /tmp/
+
+scp /tmp/imutils-0.5.3-py3-none-any.whl Pi1B:~
+
+in Pi1B
+
+pip3 install imutils-0.5.3-py3-none-any.whl
+
 
 Using python3.5m is bit slower than python3 in Pi1B+
 
