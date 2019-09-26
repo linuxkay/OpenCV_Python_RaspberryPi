@@ -15,6 +15,7 @@ Pip3 uses 3.4.
 Latest version of opencv is 4.1 for amd64 or x86. Not available yet for armv7, v6.
 
 # Requirements
+Python3 ~ 3.6
 
 pip3
 
