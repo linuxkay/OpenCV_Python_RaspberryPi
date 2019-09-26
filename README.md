@@ -47,3 +47,22 @@ conda install opencv=3.3
 
 conda install gilbertfrancois imutils
 
+# Memo
+
+Using python3.5m is bit slower than python3 in Pi1B+
+
+Using imutils makes 174% faster than using cv2.Capture in Pi3B+
+
+Guessing 4 core and threading make it really fast.
+
+I only see 4 ~ 7% performance increase in Pi1B since it's single core. 
+
+# License
+
+MIT
+
+# Author
+
+linuxkay
+
+
