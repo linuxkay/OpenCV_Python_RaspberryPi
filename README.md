@@ -1,7 +1,14 @@
 # OpenCV_Python_RaspberryPi
+
+## Category
+
+Raspberry Pi OpenCV
+
+## Description
+
 Notes to setup python3 cv2. Then I don't have to google around dependencies every time I set it up.
 
-# Anaconda vs Pip
+## Anaconda vs Pip
 
 Best to use pip3 in Raspberry pi.
 
@@ -14,7 +21,7 @@ Pip3 uses 3.4.
 
 Latest version of opencv is 4.1 for amd64 or x86. Not available yet for armv7, v6.
 
-# Requirements
+## Requirements
 Python3 ~ 3.6
 
 pip3
@@ -24,12 +31,12 @@ or
 anaconda
 
 
-# Prep
+## Preparation
 
 sudo apt -y install python3-pip
 
 
-# Installation
+## Installation
 
 --pip3--
 
@@ -48,7 +55,7 @@ conda install opencv=3.3
 
 conda install gilbertfrancois imutils
 
-# Memo
+## Memo
 Install imutils from package since Pi1B+ does not have internet access.
 
 Downloaded imutils by Pi3B+(Has internet access and ssh acces to Pi1B)
@@ -70,12 +77,13 @@ Guessing 4 core and threading make it really fast.
 
 I only see 4 ~ 7% performance increase in Pi1B since it's single core. 
 
-# License
+## Contribution
 
-MIT
+## Updates
 
-# Author
+## Licence
+[MIT]
 
-linuxkay
+## Author
 
-
+[linuxkay](https://github.com/linuxkay)
